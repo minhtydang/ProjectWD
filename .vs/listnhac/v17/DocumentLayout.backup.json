@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\THANH\\source\\repos\\listnhac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|c:\\users\\thanh\\source\\repos\\listnhac\\listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|c:\\users\\thanh\\source\\repos\\listnhac\\listnhac\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|c:\\users\\thanh\\source\\repos\\listnhac\\listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|c:\\users\\thanh\\source\\repos\\listnhac\\listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|c:\\users\\thanh\\source\\repos\\listnhac\\listnhac\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form3.cs",
+              "RelativeDocumentMoniker": "listnhac\\Form3.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form3.cs [Design]",
+              "RelativeToolTip": "listnhac\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:11:45.085Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Program.cs",
+              "RelativeDocumentMoniker": "listnhac\\Program.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Program.cs",
+              "RelativeToolTip": "listnhac\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:55:49.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form2.cs",
+              "RelativeDocumentMoniker": "listnhac\\Form2.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form2.cs [Design]",
+              "RelativeToolTip": "listnhac\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:10:39.71Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form1.cs",
+              "RelativeDocumentMoniker": "listnhac\\Form1.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form1.cs",
+              "RelativeToolTip": "listnhac\\Form1.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAADgv0gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T04:32:58.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form1.cs",
+              "RelativeDocumentMoniker": "listnhac\\Form1.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\listnhac\\listnhac\\Form1.cs [Design]",
+              "RelativeToolTip": "listnhac\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T03:28:25.226Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

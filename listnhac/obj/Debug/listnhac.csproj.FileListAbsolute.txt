@@ -1,0 +1,17 @@
+C:\Users\THANH\source\repos\listnhac\listnhac\bin\Debug\listnhac.exe.config
+C:\Users\THANH\source\repos\listnhac\listnhac\bin\Debug\listnhac.exe
+C:\Users\THANH\source\repos\listnhac\listnhac\bin\Debug\listnhac.pdb
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.csproj.AssemblyReference.cache
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.frmMedia.resources
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.Properties.Resources.resources
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.csproj.GenerateResource.cache
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.csproj.CoreCompileInputs.cache
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.exe
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.pdb
+C:\Users\THANH\source\repos\listnhac\listnhac\bin\Debug\Interop.WMPLib.dll
+C:\Users\THANH\source\repos\listnhac\listnhac\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\Interop.WMPLib.dll
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.csproj.ResolveComReference.cache
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.frmVideo.resources
+C:\Users\THANH\source\repos\listnhac\listnhac\obj\Debug\listnhac.frmEdit.resources

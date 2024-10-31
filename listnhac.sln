@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listnhac", "listnhac\listnhac.csproj", "{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5D447DE-46F6-4459-AF0A-97804D13A436}
+	EndGlobalSection
+EndGlobal
