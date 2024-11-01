@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "D:\\project\\demo-doan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,27 +35,7 @@
       "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\logup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|d:\\project\\demo-doan\\listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|D:\\project\\demo-doan\\listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EEA3A4C9-EC2C-42B8-932C-E66AA4AF816C}|listnhac\\listnhac.csproj|solutionrelative:listnhac\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\Form2.cs",
               "RelativeDocumentMoniker": "listnhac\\Form2.cs",
@@ -70,8 +70,7 @@
               "RelativeToolTip": "listnhac\\Form2.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwD8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:32:58.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T07:32:58.337Z"
             },
             {
               "$type": "Document",
@@ -81,39 +80,37 @@
               "RelativeDocumentMoniker": "listnhac\\LogUp.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\LogUp.cs",
               "RelativeToolTip": "listnhac\\LogUp.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:16:08.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T07:16:08.133Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\frmLogin.cs",
               "RelativeDocumentMoniker": "listnhac\\frmLogin.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\frmLogin.cs",
               "RelativeToolTip": "listnhac\\frmLogin.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T07:08:34.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LogUp.cs [Design]",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\LogUp.cs",
               "RelativeDocumentMoniker": "listnhac\\LogUp.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\LogUp.cs [Design]",
               "RelativeToolTip": "listnhac\\LogUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:08:10.006Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-01T07:08:10.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\frmLogin.cs",
               "RelativeDocumentMoniker": "listnhac\\frmLogin.cs",
@@ -125,40 +122,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\Form3.cs",
               "RelativeDocumentMoniker": "listnhac\\Form3.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\Form3.cs [Design]",
               "RelativeToolTip": "listnhac\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:11:45.085Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-31T07:11:45.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\Program.cs",
               "RelativeDocumentMoniker": "listnhac\\Program.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\Program.cs",
               "RelativeToolTip": "listnhac\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:55:49.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T06:55:49.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "D:\\project\\demo-doan\\listnhac\\Form2.cs",
               "RelativeDocumentMoniker": "listnhac\\Form2.cs",
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\Form2.cs [Design]",
               "RelativeToolTip": "listnhac\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:10:39.71Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-31T06:10:39.71Z"
             },
             {
               "$type": "Document",
@@ -170,8 +164,7 @@
               "RelativeToolTip": "listnhac\\Form1.cs",
               "ViewState": "AgIAADUAAAAAAAAAAADgv0gAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T04:32:58.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T04:32:58.137Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "ToolTip": "D:\\project\\demo-doan\\listnhac\\Form1.cs [Design]",
               "RelativeToolTip": "listnhac\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T03:28:25.226Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-31T03:28:25.226Z"
             }
           ]
         },

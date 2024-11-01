@@ -16,7 +16,7 @@ namespace listnhac
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEdit());
+            Application.Run(new frmLogin());
         }
     }
 }
