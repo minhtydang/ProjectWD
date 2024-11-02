@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Display Songs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display Songs.Designer.cs">
+      <DependentUpon>Display Songs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayPlaylist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayPlaylist.Designer.cs">
+      <DependentUpon>DisplayPlaylist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPlayList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPlayList.Designer.cs">
+      <DependentUpon>AddPlayList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +96,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddPlayList.resx">
+      <DependentUpon>AddPlayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Display Songs.resx">
+      <DependentUpon>Display Songs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayPlaylist.resx">
+      <DependentUpon>DisplayPlaylist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +209,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\list-check - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musical-note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-interface-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59b6009b3ccb22e579977c8339a7810b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0ee9d0b8b2558f163673bd6a1567d8f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_845434812_YlB53m6J8cnLgMnyS8wNTNZtFbHeUO9T.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotify1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

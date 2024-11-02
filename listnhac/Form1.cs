@@ -13,6 +13,7 @@ namespace listnhac
 {
     public partial class frmMedia : Form
     {
+        private bool isShuffle = false;
         public frmMedia()
         {
             InitializeComponent();
@@ -69,6 +70,32 @@ namespace listnhac
         }
 
         private void tabVideos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShuffle_Click(object sender, EventArgs e)
+        {
+            isShuffle = !isShuffle;
+            btnShuffle.Text = "Shuffle: " + (isShuffle ? "On" : "Off");
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPause_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
         {
 
         }

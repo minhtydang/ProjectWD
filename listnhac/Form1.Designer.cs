@@ -30,20 +30,30 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMedia));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.btnSetting = new System.Windows.Forms.Button();
-            this.btnMusic = new System.Windows.Forms.Button();
+            this.btnSelectSong = new System.Windows.Forms.Button();
             this.btnPlaylist = new System.Windows.Forms.Button();
             this.btnVideo = new System.Windows.Forms.Button();
             this.lblUser = new System.Windows.Forms.Label();
             this.btnNoPlaying = new System.Windows.Forms.Button();
             this.tab = new System.Windows.Forms.TabControl();
             this.tabMusic = new System.Windows.Forms.TabPage();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.cmbSort = new System.Windows.Forms.ComboBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnShuffle = new System.Windows.Forms.Button();
             this.dgvMusic = new System.Windows.Forms.DataGridView();
+            this.colMusic = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colLink = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblMusic = new System.Windows.Forms.Label();
             this.tabVideos = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAddVideo = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnAll = new System.Windows.Forms.Button();
+            this.lblVideo = new System.Windows.Forms.Label();
             this.panelPlay = new System.Windows.Forms.Panel();
             this.lblTimeStart = new System.Windows.Forms.Label();
             this.lblTimeEnd = new System.Windows.Forms.Label();
@@ -51,22 +61,12 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.lbl_trackend = new System.Windows.Forms.Label();
             this.btnChon = new System.Windows.Forms.Button();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.lblVideo = new System.Windows.Forms.Label();
-            this.btnAll = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.btnAddVideo = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.colMusic = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colLink = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.playMusic = new AxWMPLib.AxWindowsMediaPlayer();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.picAvt = new System.Windows.Forms.PictureBox();
@@ -75,9 +75,9 @@
             this.tabMusic.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMusic)).BeginInit();
             this.tabVideos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panelPlay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playMusic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAvt)).BeginInit();
             this.SuspendLayout();
@@ -88,7 +88,7 @@
             this.panelMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelMenu.Controls.Add(this.splitter1);
             this.panelMenu.Controls.Add(this.btnSetting);
-            this.panelMenu.Controls.Add(this.btnMusic);
+            this.panelMenu.Controls.Add(this.btnSelectSong);
             this.panelMenu.Controls.Add(this.btnPlaylist);
             this.panelMenu.Controls.Add(this.btnVideo);
             this.panelMenu.Controls.Add(this.lblUser);
@@ -100,6 +100,14 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(266, 666);
             this.panelMenu.TabIndex = 0;
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 666);
+            this.splitter1.TabIndex = 7;
+            this.splitter1.TabStop = false;
             // 
             // btnSetting
             // 
@@ -117,23 +125,23 @@
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSetting.UseVisualStyleBackColor = false;
             // 
-            // btnMusic
+            // btnSelectSong
             // 
-            this.btnMusic.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnMusic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMusic.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMusic.FlatAppearance.BorderSize = 0;
-            this.btnMusic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMusic.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMusic.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnMusic.Location = new System.Drawing.Point(65, 233);
-            this.btnMusic.Name = "btnMusic";
-            this.btnMusic.Size = new System.Drawing.Size(195, 38);
-            this.btnMusic.TabIndex = 5;
-            this.btnMusic.Text = "Musics";
-            this.btnMusic.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMusic.UseVisualStyleBackColor = false;
-            this.btnMusic.Click += new System.EventHandler(this.btnMusic_Click);
+            this.btnSelectSong.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSelectSong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSelectSong.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelectSong.FlatAppearance.BorderSize = 0;
+            this.btnSelectSong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectSong.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSelectSong.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btnSelectSong.Location = new System.Drawing.Point(68, 277);
+            this.btnSelectSong.Name = "btnSelectSong";
+            this.btnSelectSong.Size = new System.Drawing.Size(195, 38);
+            this.btnSelectSong.TabIndex = 5;
+            this.btnSelectSong.Text = "SelectSong";
+            this.btnSelectSong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSelectSong.UseVisualStyleBackColor = false;
+            this.btnSelectSong.Click += new System.EventHandler(this.btnMusic_Click);
             // 
             // btnPlaylist
             // 
@@ -161,7 +169,7 @@
             this.btnVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVideo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVideo.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnVideo.Location = new System.Drawing.Point(65, 277);
+            this.btnVideo.Location = new System.Drawing.Point(65, 233);
             this.btnVideo.Name = "btnVideo";
             this.btnVideo.Size = new System.Drawing.Size(195, 38);
             this.btnVideo.TabIndex = 3;
@@ -230,6 +238,17 @@
             this.tabMusic.Text = "Playing";
             this.tabMusic.UseVisualStyleBackColor = true;
             // 
+            // btnDelete
+            // 
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(469, 88);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(98, 40);
+            this.btnDelete.TabIndex = 14;
+            this.btnDelete.Text = "Remove";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
             // cmbSort
             // 
             this.cmbSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
@@ -251,6 +270,7 @@
             this.btnAdd.TabIndex = 12;
             this.btnAdd.Text = "Add Music";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnShuffle
             // 
@@ -267,6 +287,7 @@
             this.btnShuffle.TabIndex = 11;
             this.btnShuffle.Text = "Shuffle and play";
             this.btnShuffle.UseVisualStyleBackColor = false;
+            this.btnShuffle.Click += new System.EventHandler(this.btnShuffle_Click);
             // 
             // dgvMusic
             // 
@@ -282,6 +303,18 @@
             this.dgvMusic.RowTemplate.Height = 24;
             this.dgvMusic.Size = new System.Drawing.Size(712, 367);
             this.dgvMusic.TabIndex = 10;
+            // 
+            // colMusic
+            // 
+            this.colMusic.HeaderText = "Music";
+            this.colMusic.MinimumWidth = 6;
+            this.colMusic.Name = "colMusic";
+            // 
+            // colLink
+            // 
+            this.colLink.HeaderText = "Nguồn";
+            this.colLink.MinimumWidth = 6;
+            this.colLink.Name = "colLink";
             // 
             // lblMusic
             // 
@@ -312,14 +345,83 @@
             this.tabVideos.UseVisualStyleBackColor = true;
             this.tabVideos.Click += new System.EventHandler(this.tabVideos_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 180);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(712, 367);
+            this.dataGridView1.TabIndex = 18;
+            // 
+            // btnAddVideo
+            // 
+            this.btnAddVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddVideo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddVideo.Location = new System.Drawing.Point(576, 93);
+            this.btnAddVideo.Name = "btnAddVideo";
+            this.btnAddVideo.Size = new System.Drawing.Size(124, 40);
+            this.btnAddVideo.TabIndex = 16;
+            this.btnAddVideo.Text = "Add Video";
+            this.btnAddVideo.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(469, 94);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(101, 40);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Remove";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(597, 139);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(103, 24);
+            this.comboBox1.TabIndex = 14;
+            // 
+            // btnAll
+            // 
+            this.btnAll.BackColor = System.Drawing.Color.Purple;
+            this.btnAll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAll.FlatAppearance.BorderSize = 0;
+            this.btnAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAll.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAll.ForeColor = System.Drawing.Color.White;
+            this.btnAll.Location = new System.Drawing.Point(28, 88);
+            this.btnAll.Name = "btnAll";
+            this.btnAll.Size = new System.Drawing.Size(125, 38);
+            this.btnAll.TabIndex = 12;
+            this.btnAll.Text = "Play all";
+            this.btnAll.UseVisualStyleBackColor = false;
+            // 
+            // lblVideo
+            // 
+            this.lblVideo.AutoSize = true;
+            this.lblVideo.Font = new System.Drawing.Font("Segoe UI Semibold", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVideo.Location = new System.Drawing.Point(3, 13);
+            this.lblVideo.Name = "lblVideo";
+            this.lblVideo.Size = new System.Drawing.Size(150, 62);
+            this.lblVideo.TabIndex = 10;
+            this.lblVideo.Text = "Video";
+            // 
             // panelPlay
             // 
             this.panelPlay.BackColor = System.Drawing.Color.Purple;
-            this.panelPlay.Controls.Add(this.button4);
-            this.panelPlay.Controls.Add(this.button3);
-            this.panelPlay.Controls.Add(this.button2);
-            this.panelPlay.Controls.Add(this.button1);
+            this.panelPlay.Controls.Add(this.btnPlay);
             this.panelPlay.Controls.Add(this.btnStop);
+            this.panelPlay.Controls.Add(this.btnPrevious);
+            this.panelPlay.Controls.Add(this.btnNext);
+            this.panelPlay.Controls.Add(this.btnPause);
             this.panelPlay.Controls.Add(this.lblTimeStart);
             this.panelPlay.Controls.Add(this.lblTimeEnd);
             this.panelPlay.Controls.Add(this.p_bar);
@@ -391,106 +493,6 @@
             this.btnChon.TabIndex = 20;
             this.btnChon.UseVisualStyleBackColor = true;
             // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 666);
-            this.splitter1.TabIndex = 7;
-            this.splitter1.TabStop = false;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(469, 88);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(98, 40);
-            this.btnDelete.TabIndex = 14;
-            this.btnDelete.Text = "Remove";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // lblVideo
-            // 
-            this.lblVideo.AutoSize = true;
-            this.lblVideo.Font = new System.Drawing.Font("Segoe UI Semibold", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVideo.Location = new System.Drawing.Point(3, 13);
-            this.lblVideo.Name = "lblVideo";
-            this.lblVideo.Size = new System.Drawing.Size(150, 62);
-            this.lblVideo.TabIndex = 10;
-            this.lblVideo.Text = "Video";
-            // 
-            // btnAll
-            // 
-            this.btnAll.BackColor = System.Drawing.Color.Purple;
-            this.btnAll.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAll.FlatAppearance.BorderSize = 0;
-            this.btnAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAll.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAll.ForeColor = System.Drawing.Color.White;
-            this.btnAll.Location = new System.Drawing.Point(28, 88);
-            this.btnAll.Name = "btnAll";
-            this.btnAll.Size = new System.Drawing.Size(125, 38);
-            this.btnAll.TabIndex = 12;
-            this.btnAll.Text = "Play all";
-            this.btnAll.UseVisualStyleBackColor = false;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(597, 139);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(103, 24);
-            this.comboBox1.TabIndex = 14;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(469, 94);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(101, 40);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Remove";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // btnAddVideo
-            // 
-            this.btnAddVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddVideo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddVideo.Location = new System.Drawing.Point(576, 93);
-            this.btnAddVideo.Name = "btnAddVideo";
-            this.btnAddVideo.Size = new System.Drawing.Size(124, 40);
-            this.btnAddVideo.TabIndex = 16;
-            this.btnAddVideo.Text = "Add Video";
-            this.btnAddVideo.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 180);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(712, 367);
-            this.dataGridView1.TabIndex = 18;
-            // 
-            // colMusic
-            // 
-            this.colMusic.HeaderText = "Music";
-            this.colMusic.MinimumWidth = 6;
-            this.colMusic.Name = "colMusic";
-            // 
-            // colLink
-            // 
-            this.colLink.HeaderText = "Nguồn";
-            this.colLink.MinimumWidth = 6;
-            this.colLink.Name = "colLink";
-            // 
             // playMusic
             // 
             this.playMusic.Enabled = true;
@@ -500,75 +502,78 @@
             this.playMusic.Size = new System.Drawing.Size(524, 44);
             this.playMusic.TabIndex = 8;
             // 
-            // button4
+            // btnPlay
             // 
-            this.button4.BackColor = System.Drawing.Color.Purple;
-            this.button4.BackgroundImage = global::listnhac.Properties.Resources.play1;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.Purple;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(206, 23);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(33, 37);
-            this.button4.TabIndex = 32;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Purple;
-            this.button3.BackgroundImage = global::listnhac.Properties.Resources.play_pause;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Purple;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(332, 24);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(46, 36);
-            this.button3.TabIndex = 31;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Purple;
-            this.button2.BackgroundImage = global::listnhac.Properties.Resources.rewind;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Purple;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(152, 24);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 36);
-            this.button2.TabIndex = 30;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Purple;
-            this.button1.BackgroundImage = global::listnhac.Properties.Resources.forward;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Purple;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(293, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(33, 37);
-            this.button1.TabIndex = 29;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnPlay.BackColor = System.Drawing.Color.Purple;
+            this.btnPlay.BackgroundImage = global::listnhac.Properties.Resources.play1;
+            this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlay.ForeColor = System.Drawing.Color.Purple;
+            this.btnPlay.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPlay.Location = new System.Drawing.Point(206, 23);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(33, 37);
+            this.btnPlay.TabIndex = 32;
+            this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnStop
             // 
             this.btnStop.BackColor = System.Drawing.Color.Purple;
-            this.btnStop.BackgroundImage = global::listnhac.Properties.Resources.pause__1____Copy1;
+            this.btnStop.BackgroundImage = global::listnhac.Properties.Resources.play_pause;
             this.btnStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStop.ForeColor = System.Drawing.Color.Purple;
             this.btnStop.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnStop.Location = new System.Drawing.Point(245, 23);
+            this.btnStop.Location = new System.Drawing.Point(293, 24);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(42, 37);
-            this.btnStop.TabIndex = 28;
+            this.btnStop.Size = new System.Drawing.Size(46, 36);
+            this.btnStop.TabIndex = 31;
             this.btnStop.UseVisualStyleBackColor = false;
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.BackColor = System.Drawing.Color.Purple;
+            this.btnPrevious.BackgroundImage = global::listnhac.Properties.Resources.rewind;
+            this.btnPrevious.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrevious.ForeColor = System.Drawing.Color.Purple;
+            this.btnPrevious.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPrevious.Location = new System.Drawing.Point(152, 24);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(48, 36);
+            this.btnPrevious.TabIndex = 30;
+            this.btnPrevious.UseVisualStyleBackColor = false;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.BackColor = System.Drawing.Color.Purple;
+            this.btnNext.BackgroundImage = global::listnhac.Properties.Resources.forward;
+            this.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNext.ForeColor = System.Drawing.Color.Purple;
+            this.btnNext.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnNext.Location = new System.Drawing.Point(345, 25);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(33, 37);
+            this.btnNext.TabIndex = 29;
+            this.btnNext.UseVisualStyleBackColor = false;
+            // 
+            // btnPause
+            // 
+            this.btnPause.BackColor = System.Drawing.Color.Purple;
+            this.btnPause.BackgroundImage = global::listnhac.Properties.Resources.pause__1____Copy1;
+            this.btnPause.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPause.ForeColor = System.Drawing.Color.Purple;
+            this.btnPause.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPause.Location = new System.Drawing.Point(245, 23);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(42, 37);
+            this.btnPause.TabIndex = 28;
+            this.btnPause.UseVisualStyleBackColor = false;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
             // 
             // btnExit
             // 
@@ -637,10 +642,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvMusic)).EndInit();
             this.tabVideos.ResumeLayout(false);
             this.tabVideos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panelPlay.ResumeLayout(false);
             this.panelPlay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playMusic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAvt)).EndInit();
             this.ResumeLayout(false);
@@ -651,7 +656,7 @@
         private System.Windows.Forms.PictureBox picAvt;
         private System.Windows.Forms.Button btnNoPlaying;
         private System.Windows.Forms.Label lblUser;
-        private System.Windows.Forms.Button btnMusic;
+        private System.Windows.Forms.Button btnSelectSong;
         private System.Windows.Forms.Button btnPlaylist;
         private System.Windows.Forms.Button btnVideo;
         private System.Windows.Forms.Button btnSetting;
@@ -673,11 +678,11 @@
         private System.Windows.Forms.Label lblMusic;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.ComboBox cmbSort;
+        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnStop;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPrevious;
+        private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnAll;

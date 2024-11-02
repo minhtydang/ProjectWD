@@ -34,3 +34,6 @@ D:\project\demo-doan\listnhac\obj\Debug\listnhac.csproj.GenerateResource.cache
 D:\project\demo-doan\listnhac\obj\Debug\listnhac.csproj.CoreCompileInputs.cache
 D:\project\demo-doan\listnhac\obj\Debug\listnhac.exe
 D:\project\demo-doan\listnhac\obj\Debug\listnhac.pdb
+D:\project\demo-doan\listnhac\obj\Debug\listnhac.frmAddPlayList.resources
+D:\project\demo-doan\listnhac\obj\Debug\listnhac.Display_Songs.resources
+D:\project\demo-doan\listnhac\obj\Debug\listnhac.DisplayPlaylist.resources
